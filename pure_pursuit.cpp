@@ -89,7 +89,7 @@ float pid ()       // Velocity controlled using PID controller
  
 
 void head_func()
-                                                           
+{                                                           
  int index = find_pt();
  
  float ed = find_dist(index);
